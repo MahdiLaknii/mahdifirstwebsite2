@@ -200,12 +200,6 @@ header {
   body {
     width: 300px;
   }
-  header {
-    width: 400px;
-  }
-  html {
-    max-width: 250px;
-  }
   .text {
     width: 400px;
   }
