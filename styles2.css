@@ -67,7 +67,6 @@ header {
 }
 @media (max-width: 500px) {
   body {
-    dipslay:flex;
-    flex-direction:column;
+    dipslay: block;
   }
 }
