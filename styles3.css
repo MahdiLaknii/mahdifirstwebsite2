@@ -1,0 +1,85 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  right: 0;
+}
+.header-3 {
+  background-color: rgb(3, 91, 173);
+  height: 40px;
+  margin-top: -10px;
+  margin-left: -10px;
+  padding-top: 30px;
+  margin-right: -10px;
+}
+.back {
+  text-decoration: none;
+  color: white;
+  font-family: arial;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.back:hover {
+  text-decoration: underline;
+}
+.container-4 {
+  width: 390px;
+  margin-top: 50px;
+  height: 50px;
+  padding-bottom: 10px;
+}
+@keyframes shining {
+  0% {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.9);
+  }
+  20% {
+    box-shadow: 0 0 7px rgba(255, 255, 255, 0.9);
+  }
+  40% {
+    box-shadow: 0 0 9px rgba(255, 255, 255, 0.9);
+  }
+  60% {
+    box-shadow: 0 0 11px rgba(255, 255, 255, 0.9);
+  }
+  80% {
+    box-shadow: 0 0 13px rgba(255, 255, 255, 0.9);
+  }
+  100% {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.9);
+  }
+}
+.contact {
+  color: white;
+  width: 390px;
+  border-radius: 5px;
+  padding: 5px;
+  animation-name: shining;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-duration: 0.5s;
+}
+.message {
+  height: 100px;
+  width: 600px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  margin-top: 50px;
+}
+.logo {
+  width: 50px;
+  border-radius: 50%;
+}
+.logo:hover {
+  opacity: 0.6;
+}

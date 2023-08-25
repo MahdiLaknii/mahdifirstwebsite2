@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.container-5 {
+  background-color: white;
+  border: 2px solid #035bad;
+  border-radius: 10px;
+  width: 500px;
+  height: 300px;
+  margin-top: 110px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.sign-up {
+  color: rgb(3, 91, 173);
+  font-size: 35px;
+  font-family: arial;
+  font-weight: bold;
+}
+.email,
+.password {
+  width: 400px;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-family: arial;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.sign {
+  color: rgb(3, 91, 173);
+  text-decoration: none;
+  font-size: 20px;
+  font-family: arial;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.sign:hover {
+  text-decoration: underline;
+}

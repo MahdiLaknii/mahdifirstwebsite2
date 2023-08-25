@@ -1,0 +1,67 @@
+body {
+  background-color: black;
+}
+header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  left: 0;
+  right: 0;
+}
+.header-2 {
+  background-color: rgb(3, 91, 173);
+  height: 40px;
+  margin-top: -10px;
+  margin-left: -10px;
+  padding-top: 30px;
+  margin-right: -10px;
+}
+.back {
+  text-decoration: none;
+  color: white;
+  font-family: arial;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.back:hover {
+  text-decoration: underline;
+}
+
+.container-3 {
+  background-color: none;
+  height: 350px;
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+.frontend {
+  height: 300px;
+  text-align: center;
+  border-radius: 20px;
+  width: 300px;
+  border: 1px solid white;
+  box-shadow: 0 0 4px hsla(152, 100%, 50%, 1);
+  background-color: rgb(3, 91, 173);
+  transition-property: transform;
+  transition-duration: 0.7s;
+  transition-timing-function: ease;
+  transition-delay: 0.15s;
+}
+.frontend:hover {
+  transform: rotateY(-70deg);
+}
+.service-1 {
+  color: white;
+  font-family: arial;
+  font-size: 24px;
+  font-weight: 700;
+}
+.service-2 {
+  color: white;
+  font-family: arial;
+  font-size: 24px;
+  font-weight: 700;
+}
