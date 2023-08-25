@@ -198,7 +198,10 @@ header {
 
 @media (max-width: 500px) {
   body {
-    width: 150px;
+    width: 200px;
+  }
+  header {
+    width: 200px;
   }
   .text {
     width: 400px;
