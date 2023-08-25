@@ -157,8 +157,8 @@ header {
   margin-left: 20px;
 }
 @media (max-width: 500px) {
-  body {
-    width: 300px;
+  html {
+    max-width: 400px;
     background-color:red;
   }
   .text {
